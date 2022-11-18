@@ -1,11 +1,12 @@
-import { Flex, Image, Heading, Text } from '@chakra-ui/react';
+import { Flex, Image, Heading, Text, Spacer } from '@chakra-ui/react';
 
 export const NavBar = () => {
   return (
     <Flex>
       <Image />
-      <Text>ROBOLABS</Text>
-      <Text>test</Text>
+      <Text>Header</Text>
+      <Spacer />
+      <Text>Header</Text>
     </Flex>
   );
 };

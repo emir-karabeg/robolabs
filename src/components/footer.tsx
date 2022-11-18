@@ -4,8 +4,8 @@ export const Footer = () => {
   return (
     <Flex>
       <Image />
-      <Text>ROBOLABS</Text>
-      <Text>test</Text>
+      <Text>Footer</Text>
+      <Text>Footer</Text>
     </Flex>
   );
 };
