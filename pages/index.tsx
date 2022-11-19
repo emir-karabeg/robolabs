@@ -1,13 +1,13 @@
-import { Box, Text, Heading } from '@chakra-ui/react';
 import { Footer } from '../src/components/footer';
 import { NavBar } from '../src/components/nav-bar';
+import { Programs } from './programs';
 
 export default function Home() {
   return (
     <>
       <NavBar />
-      <Box></Box>
-      <Footer />
+      <Programs />
+      <Footer />  
     </>
   );
 }

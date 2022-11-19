@@ -20,6 +20,13 @@ const theme = extendTheme({
       },
     },
   },
+  colors: {
+    white: '#ffffff',
+    red: '#b5222d',
+    darkRed: '#570d13',
+    blue: '#002255',
+    gray: '#383838',
+  },
 });
 
 export default theme;
