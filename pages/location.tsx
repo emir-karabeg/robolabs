@@ -3,11 +3,11 @@ import { Footer } from '../src/components/footer';
 import { NavBar } from '../src/components/nav-bar';
 import { Location } from '../src/components/locations/location';
 
-export default function Home() {
+export default function Locate() {
   return (
     <>
       <NavBar />
-      <Box></Box>
+      <Location/>
       <Footer />
     </>
   );
