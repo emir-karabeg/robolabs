@@ -17,6 +17,16 @@ const theme = extendTheme({
             bg: '#0F6DEB',
           },
         },
+        blue: {
+          bg:'#225DB5', 
+          color: 'white', 
+          pl: '2rem', 
+          pr: '2rem', 
+          font: 'Azonix, sans-serif',
+          _hover: {
+            bg: '#0F6DEB',
+          },
+        }
       },
     },
   },
