@@ -16,6 +16,7 @@ export const Programs = () => {
           title='VEX IQ CLASS'
           images={['https://picsum.photos/500/300?random=1', 'https://picsum.photos/500/300?random=2', 'https://picsum.photos/500/300?random=3']}
           quotes='This is on the quotes. The carousel, card text, and quotes are all optional. If the value for the respective field is non null, then the corresponding element should show up'
+          accomplishments={['Accomplishment 1', 'Accomplishment 2']}
         />
         <DropDown 
           title='VEX EDC CLASS'

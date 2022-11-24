@@ -8,7 +8,7 @@ export const Quotes = (props: quotesProps) => {
   return (
     <Box marginBottom='8%'>
         <Image src="openQuotes.svg"></Image>
-        <Text paddingLeft='11%' paddingRight='11%' align='center'>
+        <Text fontFamily='text' paddingLeft='11%' paddingRight='11%' align='center'>
             {props.text}
         </Text>
         <Flex>

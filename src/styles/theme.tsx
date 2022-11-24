@@ -17,14 +17,18 @@ const theme = extendTheme({
             bg: '#0F6DEB',
           },
         },
+        register: {
+          bg: '#FFA700',
+          color: 'white',
+        },
       },
     },
   },
   colors: {
     white: '#ffffff',
-    red: '#b5222d',
+    orange: '#FFA700',
     darkRed: '#570d13',
-    blue: '#002255',
+    blue: '#225DB5',
     gray: '#383838',
   },
 });

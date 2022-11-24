@@ -1,14 +1,16 @@
-import { Center, Button, Box } from "@chakra-ui/react";
+import { Text, Center, Button, Box } from "@chakra-ui/react";
 import { AccordionItem, AccordionButton, AccordionPanel, AccordionIcon } from '@chakra-ui/react'
 import { TextCard } from './textCard';
 import { Quotes } from './quotes';
 import { PhotoCarousel } from "./photoCarousel";
+import { Accomplishments } from "./accomplishments";
 
 interface dropProps {
     title: string;
     images?: string[];
     card?: string;
     quotes?: string;
+    accomplishments?: string[];
 }
 
 const renderCarousel = (images: any) => {
@@ -26,6 +28,12 @@ const renderCard = (text: any) => {
 const renderQuotes = (text: any) => {
     if (typeof text !== 'undefined') {
         return <Quotes text={text} />
+    }
+}
+
+const renderAccomplishments = (text: any) => {
+    if (typeof text !== 'undefined') {
+        return <Accomplishments text={text} />
     }
 }
 
@@ -47,9 +55,11 @@ export const DropDown = (props: dropProps) => {
 
                 {renderQuotes(props.quotes)}
 
+                {renderAccomplishments(props.accomplishments)}
+
                 <Center>
-                    <Button variant='create'>
-                        Register
+                    <Button variant='register'>
+                        <Text fontFamily='text'>Register</Text>
                     </Button>
                 </Center>
             </AccordionPanel>
