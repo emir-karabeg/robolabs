@@ -7,11 +7,12 @@ import { RegisterButton } from '../src/components/register-button';
 export default function Landing() {
   return (
     <>
-        <NavBar />
-        <Container maxWidth="100vw" bgImage="url('landing-background-rectangle-1.svg')"  backgroundRepeat="no-repeat" width="100vw" margin-right="0" padding="0" bgSize="contain" >
-            <Container pt="3rem">
+        <Center width="100vw" m="0" p="0">
+            <Image position="absolute" width="100vw" src="landing-background-rectangle-1.svg"></Image>
+            <Container pt="4rem" maxWidth="80%">
                 <LandingCarousel />
             </Container>
+        </Center>  
             <Container mt="2rem" >
                 <HStack display="flex" justifyContent="space-around">
                     <VStack width="8rem">
@@ -31,7 +32,7 @@ export default function Landing() {
                     Description about mission, story, values. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </Center>
             </Container>
-        </Container>
+       
         <Center mt="3rem">
             <RegisterButton></RegisterButton>
         </Center>
