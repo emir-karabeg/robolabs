@@ -34,9 +34,51 @@ export default function Landing() {
                 </Center>
             </Container>
        
-        <Center mt="3rem">
-            <RegisterButton></RegisterButton>
-        </Center>
+        <Container backgroundImage="bg-blue.svg" backgroundRepeat="no-repeat" backgroundSize="161%">
+            <Text color="white" mt="1rem">.</Text>
+            <Center>
+                <RegisterButton></RegisterButton>
+            </Center>
+
+            <Container mt="1rem">
+                <Container>
+                    <Text align="center" color="white" fontSize={["230%", "250%", "300%"]}>50,000</Text>
+                    <Text align="center" color="white" fontSize={["120%", "150%", "200%"]}>Students enrolled in our classes</Text>
+                </Container>
+
+                <Container mt="1rem">
+                    <Text align="center" color="white" fontSize={["230%", "250%", "300%"]}>5,000</Text>
+                    <Text align="center" color="white" fontSize={["120%", "150%", "200%"]}>Attended our summer programs</Text>
+                </Container>
+
+                <Container mt="1rem">
+                    <Text align="center" color="white" fontSize={["230%", "250%", "300%"]}>25,000</Text>
+                    <Text align="center" color="white" fontSize={["120%", "150%", "200%"]}>Participated in our other thing</Text>
+                    <Text>.</Text>
+                </Container>
+            </Container>
+        </Container>
+
+        <Text padding="1rem" bg="#B5222D" color="white" align="center" fontSize={["230%", "250%", "300%"]}>TESTIMONIES</Text>
+
+        <HStack mt="2rem" align="center">
+            <Image src="beg-quote.svg" boxSize="17%"></Image>
+            <Text align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque odio nisl, luctus a tempus a, euismod ac e.</Text>
+            <Image src="end-quote.svg" boxSize="17%"></Image>
+        </HStack>
+
+        <HStack mt="2rem" align="center">
+            <Image src="beg-quote.svg" boxSize="17%"></Image>
+            <Text align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque odio nisl, luctus a tempus a, euismod ac e.</Text>
+            <Image src="end-quote.svg" boxSize="17%"></Image>
+        </HStack>
+
+        <HStack mt="2rem" align="center">
+            <Image src="beg-quote.svg" boxSize="17%"></Image>
+            <Text align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque odio nisl, luctus a tempus a, euismod ac e.</Text>
+            <Image src="end-quote.svg" boxSize="17%"></Image>
+        </HStack>
+
         <Footer />
     </>
   );
