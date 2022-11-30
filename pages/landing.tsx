@@ -78,8 +78,6 @@ export default function Landing() {
             <Text align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque odio nisl, luctus a tempus a, euismod ac e.</Text>
             <Image src="end-quote.svg" boxSize="17%"></Image>
         </HStack>
-
-        <Footer />
     </>
   );
 }
