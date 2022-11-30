@@ -19,7 +19,11 @@ export const NavBar = () => {
         <Image src="/logo.svg" alt="Robolabs logo" w="50%" pt="1.5%" />
         <Spacer />
         <Box as="button" w="7.25%" onClick={onOpen}>
-          <HamburgerIcon w="full" h="full" color="white" />
+          {isOpen ? (
+            <CloseIcon w="60%" h="full" color="white" />
+          ) : (
+            <HamburgerIcon w="full" h="full" color="white" />
+          )}
         </Box>
       </Flex>
       <SideBar isOpen={isOpen} onOpen={onOpen} onClose={onClose} />
