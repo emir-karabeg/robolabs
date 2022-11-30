@@ -26,22 +26,22 @@ export const AboutUsPage = () => {
                 marginY={'5vh'}
             >
                 <GridItem display={'flex'} justifyContent={'center'} alignItems={'center'}>
-                    <Box borderRadius={innerWidth/2} bg="#FFA700" height={'20vh'} width={'20vh'} border='thin solid'>
+                    <Box borderRadius={'full'} bg="#FFA700" height={'20vh'} width={'20vh'} border='thin solid'>
                         <Image height={'20vh'} src={'/sponsor_logo.png'} borderRadius={'full'} border='thin solid' left={"-1.5vw"} top={"-1.25vw"}position={'relative'}></Image>
                     </Box>
                 </GridItem>
                 <GridItem display={'flex'} justifyContent={'center'} alignItems={'center'}>
-                    <Box borderRadius={innerWidth/2} bg="#FFA700" height={'20vh'} width={'20vh'} border='thin solid'>
+                    <Box borderRadius={'full'} bg="#FFA700" height={'20vh'} width={'20vh'} border='thin solid'>
                         <Image height={'20vh'} src={'/sponsor_logo.png'} borderRadius={'full'} border='thin solid' left={"-1.5vw"} top={"-1.25vw"}position={'relative'}></Image>
                     </Box>
                 </GridItem>
                 <GridItem display={'flex'} justifyContent={'center'} alignItems={'center'}>
-                    <Box borderRadius={innerWidth/2} bg="#FFA700" height={'20vh'} width={'20vh'} border='thin solid'>
+                    <Box borderRadius={'full'} bg="#FFA700" height={'20vh'} width={'20vh'} border='thin solid'>
                         <Image height={'20vh'} src={'/sponsor_logo.png'} borderRadius={'full'} border='thin solid' left={"-1.5vw"} top={"-1.25vw"}position={'relative'}></Image>
                     </Box>
                 </GridItem>
                 <GridItem display={'flex'} justifyContent={'center'} alignItems={'center'}>
-                    <Box borderRadius={innerWidth/2} bg="#FFA700" height={'20vh'} width={'20vh'} border='thin solid'>
+                    <Box borderRadius={'full'} bg="#FFA700" height={'20vh'} width={'20vh'} border='thin solid'>
                         <Image height={'20vh'} src={'/sponsor_logo.png'} borderRadius={'full'} border='thin solid' left={"-1.5vw"} top={"-1.25vw"}position={'relative'}></Image>
                     </Box>
                 </GridItem>
@@ -57,28 +57,28 @@ export const AboutUsPage = () => {
                 marginY={'5vh'}
             >
                 <GridItem flexDirection={'column'} display={'flex'} justifyContent={'center'} alignItems={'center'}>
-                    <Box borderRadius={innerWidth/2} bg="#FFA700" height={'20vh'} width={'20vh'}>
+                    <Box borderRadius={'full'} bg="#FFA700" height={'20vh'} width={'20vh'}>
                         <Image height={'20vh'}  src={'/inclusive_stem.png'} borderRadius={'full'} left={"-2.5vw"} position={'relative'}></Image>
                     </Box>
                     <Text fontWeight={'semibold'} mt={'5px'}>BOB ROSS</Text>
                     <Text fontSize={'sm'}>Developer</Text>
                 </GridItem>
                 <GridItem flexDirection={'column'} display={'flex'} justifyContent={'center'} alignItems={'center'}>
-                    <Box borderRadius={innerWidth/2} bg="#FFA700" height={'20vh'} width={'20vh'}>
+                    <Box borderRadius={'full'} bg="#FFA700" height={'20vh'} width={'20vh'}>
                         <Image height={'20vh'}  src={'/inclusive_stem.png'} borderRadius={'full'} left={"-2.5vw"} position={'relative'}></Image>
                     </Box>
                     <Text fontWeight={'semibold'} mt={'5px'}>BOB ROSS</Text>
                     <Text fontSize={'sm'}>Developer</Text>
                 </GridItem>
                 <GridItem flexDirection={'column'} display={'flex'} justifyContent={'center'} alignItems={'center'}>
-                    <Box borderRadius={innerWidth/2} bg="#FFA700" height={'20vh'} width={'20vh'}>
+                    <Box borderRadius={'full'} bg="#FFA700" height={'20vh'} width={'20vh'}>
                         <Image height={'20vh'}  src={'/inclusive_stem.png'} borderRadius={'full'} left={"-2.5vw"} position={'relative'}></Image>
                     </Box>
                     <Text fontWeight={'semibold'} mt={'5px'}>BOB ROSS</Text>
                     <Text fontSize={'sm'}>Developer</Text>
                 </GridItem>
                 <GridItem flexDirection={'column'} display={'flex'} justifyContent={'center'} alignItems={'center'}>
-                    <Box borderRadius={innerWidth/2} bg="#FFA700" height={'20vh'} width={'20vh'}>
+                    <Box borderRadius={'full'} bg="#FFA700" height={'20vh'} width={'20vh'}>
                         <Image height={'20vh'}  src={'/inclusive_stem.png'} borderRadius={'full'} left={"-2.5vw"} position={'relative'}></Image>
                     </Box>
                     <Text fontWeight={'semibold'} mt={'5px'}>BOB ROSS</Text>
