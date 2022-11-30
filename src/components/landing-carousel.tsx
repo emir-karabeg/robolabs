@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export const LandingCarousel = () => {
   return (
-    <Carousel showArrows={true} showThumbs={false}>
+    <Carousel showArrows={true} showThumbs={false} autoPlay={true} showStatus={false}>
     <div>
         <Image src="carousel.svg"></Image>
     </div>
