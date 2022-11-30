@@ -1,10 +1,13 @@
 import { Accordion } from '@chakra-ui/react';
 import { Banner } from '../src/components/banner';
 import { DropDown } from '../src/components/dropdown';
+import { Footer } from '../src/components/footer';
+import { NavBar } from '../src/components/nav-bar';
 
-export const Programs = () => {
+const Programs = () => {
   return (
     <>
+        <NavBar />
         <Banner
           text='VEX ROBOTICS CLASSES'
           backgroundColor='blue'
@@ -64,6 +67,9 @@ export const Programs = () => {
           quotes='asdlfkjalskd jalkd jalskdf jalskdfj alskdfj alksfdj alksdfj alskdfj alksdfj laksdfj laksdf asldkf alsdkf'
         />
         </Accordion>
+        <Footer />
     </>
   );
 }
+
+export default Programs

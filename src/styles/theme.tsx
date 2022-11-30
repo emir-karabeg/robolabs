@@ -5,6 +5,11 @@ const theme = extendTheme({
     brand: {
       100: '#B5222D',
     },
+    white: '#ffffff',
+    orange: '#FFA700',
+    darkRed: '#570d13',
+    blue: '#225DB5',
+    gray: '#383838',
   },
   semanticTokens: {
     fonts: {
@@ -28,13 +33,6 @@ const theme = extendTheme({
         },
       },
     },
-  },
-  colors: {
-    white: '#ffffff',
-    orange: '#FFA700',
-    darkRed: '#570d13',
-    blue: '#225DB5',
-    gray: '#383838',
   },
 });
 
