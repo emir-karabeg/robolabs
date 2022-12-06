@@ -1,6 +1,11 @@
 import { extendTheme } from '@chakra-ui/react';
 
 const theme = extendTheme({
+  colors: {
+    brand: {
+      100: '#B5222D',
+    },
+  },
   semanticTokens: {
     fonts: {
       heading: `'ABeeZee', sans-serif`,
