@@ -6,9 +6,6 @@ export default function Home() {
   return (
     <>
       <NavBar />
-      <Box>
-        <Landing></Landing>
-      </Box>
       <Footer />
     </>
   );
