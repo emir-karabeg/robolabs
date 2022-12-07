@@ -13,8 +13,8 @@ const theme = extendTheme({
   },
   semanticTokens: {
     fonts: {
-      heading: `'ABeeZee', sans-serif`,
-      text: `'ABeeZee', sans-serif`,
+      heading: `Azonix, sans-serif`,
+      text: `'Azonix', sans-serif`,
     },
   },
   components: {
@@ -32,15 +32,15 @@ const theme = extendTheme({
           color: 'white',
         },
         blue: {
-          bg:'#225DB5', 
-          color: 'white', 
-          pl: '2rem', 
-          pr: '2rem', 
+          bg: '#225DB5',
+          color: 'white',
+          pl: '2rem',
+          pr: '2rem',
           font: 'Azonix, sans-serif',
           _hover: {
             bg: '#0F6DEB',
           },
-        }
+        },
       },
     },
   },

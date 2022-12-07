@@ -7,11 +7,14 @@ import {
   Grid,
   GridItem,
 } from '@chakra-ui/react';
+import { Footer } from '../src/components/footer';
+import { NavBar } from '../src/components/nav-bar';
 import theme from '../src/styles/theme';
 
 export default function AboutUs() {
   return (
     <>
+      <NavBar />
       <Flex direction={'column'} justifyItems={'center'}>
         <Box
           bg={'#B5222D'}
@@ -20,7 +23,11 @@ export default function AboutUs() {
           display={'flex'}
           justifyContent={'center'}
         >
-          <Text fontFamily={theme.semanticTokens.fonts.text} color="white">
+          <Text
+            color="white"
+            fontWeight="semibold"
+            fontFamily={theme.semanticTokens.fonts.text}
+          >
             ABOUT US
           </Text>
         </Box>
@@ -287,6 +294,7 @@ export default function AboutUs() {
           </GridItem>
         </Grid>
       </Flex>
+      <Footer />
     </>
   );
 }
