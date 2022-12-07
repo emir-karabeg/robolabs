@@ -16,6 +16,7 @@ export const PhotoCarousel = (props: carouselProps) => {
           borderRadius="2xl"
           border="thin solid"
           borderColor="blue"
+          _active={{}}
         ></Image>
       </div>
     );
