@@ -14,6 +14,7 @@
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
     "@fontsource/abeezee": "^4.5.10",
+    "@react-google-maps/api": "^2.17.0",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.9",
@@ -23,6 +24,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-responsive-carousel": "^3.2.23",
+    "react-google-maps": "^9.4.5",
     "typescript": "4.9.3",
     "yarn": "^1.22.19"
   }
