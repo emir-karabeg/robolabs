@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.13",
     "@chakra-ui/react": "^2.4.1",
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
@@ -17,11 +18,14 @@
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.9",
+    "add": "^2.0.6",
     "framer-motion": "^6",
     "next": "13.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-responsive-carousel": "^3.2.23",
     "react-google-maps": "^9.4.5",
-    "typescript": "4.9.3"
+    "typescript": "4.9.3",
+    "yarn": "^1.22.19"
   }
 }
